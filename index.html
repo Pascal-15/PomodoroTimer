@@ -10,20 +10,21 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="header-title">
         <h1 id="site-title">Pomodoro</h1>
+    </div>
+
+    <div class="container">
         <div class="container-timer" id="container-timer">
             <div class="outer">
-                <div class="inner"></div>
+                <div class="inner">
+                    <div id="progress">
+                        <div id="time">00:00</div>
+                    </div>
+                </div>
             </div>
-        </div>
-    
-        <div class="time-duration">
-            <span id="current-time"> 0: 00</span>
-            <span id="duration"> 0: 00</span>
-        </div>
-        <div class="timer-controls">
-            <i class="fa-solid fa-play" title="Start"></i>
+                <span id="current-time"> 00:00</span>
+                <i class="fa-solid fa-play" title="Start"></i>
         </div>
     </div>
 
