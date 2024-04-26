@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 500px;
-    padding: 30px 30px;
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
     transition: all 0.4s ease;
@@ -31,7 +31,7 @@ body {
 
 .container:hover {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
-    transform: scale(1.002);
+    transform: scale(1.003);
 }
 
 h1 {
@@ -98,15 +98,28 @@ h1 {
     border: 8px solid white;
 }
 
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .fa-play {
-    color: white;
-    font-size: 60px;
+    margin-top: 20px;
+    color: rgba(74,31,163,1);
+    font-size: 100px;
+}
+.fa-pause {
+    margin-top: 20px;
+    color: rgba(74,31,163,1);
+    font-size: 100px;
 }
 
-.fa-play:hover {
-    transform: scale(1.1);
+.fa-play:hover, .fa-pause:hover {
+    transform: scale(1.05);
 }
 
-.fa-play:active {
-    transform: scale(0.95); 
+.fa-play:active, .fa-pause:active {
+    transform: scale(0.93);
 }
