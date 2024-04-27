@@ -108,12 +108,12 @@ h1 {
 .fa-play {
     margin-top: 20px;
     color: rgba(74,31,163,1);
-    font-size: 100px;
+    font-size: 80px;
 }
 .fa-pause {
     margin-top: 20px;
     color: rgba(74,31,163,1);
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .fa-play:hover, .fa-pause:hover {

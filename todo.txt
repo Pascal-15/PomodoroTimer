@@ -1,0 +1,3 @@
+- input field -> belibige Zeitangabe
+- timer rückwärtslauf
+- timer finish animation / sound
