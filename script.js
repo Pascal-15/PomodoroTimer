@@ -1,5 +1,6 @@
 const   startButton = document.getElementById('start'),
-        currentTime = document.getElementById('time');
+        currentTime = document.getElementById('time'),
+        fieldTime = document.getElementById('input-time');
 
 
 let inputTime = 11;
@@ -22,8 +23,6 @@ function startTimer() {
                 sec = '0' + 0;
                 min = inputTime;
                 playSound();
-
-                //Play sound TOTO
             }
             else if (sec <= 0) {
                 min--;
@@ -46,7 +45,7 @@ function timerStop() {
 //Play sound
 function playSound() {
     let audio =  new Audio("assets/sounds/complete.wav");
-    audio.volume = 0.1
+    audio.volume = 0.025
     audio.play();
 }
 

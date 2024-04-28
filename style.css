@@ -100,9 +100,21 @@ h1 {
 
 .controls {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    column-gap: 100px;
     justify-content: center;
+}
+
+#input-time {
+    margin-top: 20px;
+    width: 100px;
+    height: 75px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    border: 4px solid rgba(74,31,163,1);
+    color: rgba(74,31,163,1);
 }
 
 .fa-play {
@@ -117,6 +129,7 @@ h1 {
 }
 
 .fa-play:hover, .fa-pause:hover {
+    cursor: pointer;
     transform: scale(1.05);
 }
 
